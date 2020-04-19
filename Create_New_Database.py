@@ -12,7 +12,7 @@ password VARCHAR(20) NOT NULL);
 
 cursor.execute("""
 INSERT INTO users(username,password)
-VALUES("admin", "P@ssw0rd1")
+VALUES("test", "test")
 """)
 
 db.commit()
